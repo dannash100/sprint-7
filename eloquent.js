@@ -42,4 +42,4 @@ function countChar(str, letter) {
 }
 
 
-console.log(countChar("kakkerlak", "k"));
+console.log(countChar("kakkekkrlak", "k"));
