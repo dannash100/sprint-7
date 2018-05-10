@@ -10,13 +10,11 @@ console.log(min(21, 32));
 //Exercise:2
 
 function isEven(num) {
-    if (num = 1) {
+    if (num === 1) {
         return false;
-    } else if (num % 2 === num - 2 % 2) {
+    } else if (num === 0) {
         return true;
-    } else {
-        return false;
-    }
+    } else return isEven(num - 2)
 }
 
 console.log(isEven(-1));
